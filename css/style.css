@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	width: 100%; height: 60px; background-color:antiquewhite
+}
+.justify-center{
+	justify-content: center}
+.justify-between{
+	justify-content:space-between
+}
+.banner{
+	width: 100%; min-height: 300px; z-index: 20
+}
+.img100{
+	width: 100%; height: auto
+}
+.logo{
+	padding: 20px; height: auto; width: 5px}
+.img30{
+	padding: 20px
+}
+.img30 a{
+	padding: 10px 20px
+}
+.menu{
+	padding: 10px
+}
+.menu ul{
+	margin: 0px 70px; padding: 0px; list-style: none; display: flex; align-items:center
+}
+.menu ul li a{
+	text-decoration:none; padding: 10px 20px; border-radius: 10px; display:block; color:#000000;
+}
+
+.menu ul li a:hover{
+	background-color:#954018; color:#FFFFFF; z-index: 40
+}
+.menu ul li{position: relative}
+.menu .submenu{
+	position: absolute; display: flex; flex-direction: column; align-content: center; background-color:#C86E1F; display: none; box-shadow: 5px 5px 5px; border-radius: 5px
+}
+
+.menu .submenu li{
+	border-bottom: 1px solid #D5D5D5
+}
+.menu .submenu li a{
+	width:150px;
+}
+
+.menu li:hover .submenu{
+	display:block; z-index: 40
+}
+main{
+	width: 100%; min-height: 500px
+}
+.vien{
+	border: 1px solid darkred; border-radius: 5px; padding: 10px; position: relative; width:100%; overflow: hidden
+}
+.icon{
+	position:absolute; width:80%; display:flex; justify-content: space-around; height:40px; left:10%; top: -10%; transition: all 1s
+}
+
+.vien:hover .icon{
+	top:35%
+}
+
+.icon a{
+	width:40px; heigh:40px; background-color:darkred; border-radius: 50%; display: flex; justify-content: center; align-items:center; text-decoration:none; color: white
+}
+#feature{
+	width: 100%; min-height: 400px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover; background-position: center bottom;
+}
+.pt-30{
+	padding: 30px
+}
+.gach-chan{
+	border-bottom: 2px solid #B42A2D
+}
+.text-do{
+	color: #680305
+}
+.vien1 {
+	border: 1px solid #C63638; text-align: center; padding: 20px; display: flex; flex-direction: column; justify-content: center; align-items: center
+}
+.vien1 a{
+	text-decoration: none; color: darkred
+}
+.vien1 a:hover{
+	color: gray
+}
+#contact{
+	width: 100%; height: 700px; background: url("../images/Banner2.png"); background-repeat: no-repeat; background-size: cover; background-position: center center
+}
+.shadow{
+	width:100%; min-height: 400px; border: 1px solid #82393A; box-shadow: 5px 5px 5px gray; padding: 40px
+}
+.from-control{
+	padding: 8px; width:100%; margin-bottom: 10px
+}
+/*Trang Lien he*/
+.container {
+	width: 80%; margin: 0 auto
+}
+.w-25{
+	width: 25%; padding: 15px; float: left
+}
+.bo-goc{
+	border-radius: 15px
+}
+.text-NAU{
+	color:#AF540C
+}
+.w-30{
+	width: 30%; padding: 15px; float: left
+}
+.w-70{
+	width: 70%; padding: 15px; float: left;
+}
+.gtt{
+	padding: 10px; background-color:#EF9E2E; color: black; border-radius: 8px; border-color:#525252
+}
+.gtt:hover{
+	background-color:#C66213; color: aliceblue
+}
+.vien-xam{
+	width: 100%; min-height: 400px; border: 1px solid #6D6A6A; ; border-radius: 8px; padding: 8px; margin-bottom: 15px
+}
+.text-thuong{
+	float: right
+}
+.form-control1{
+	padding: 8px; margin-bottom: 15px; width: 100%
+}
+footer{
+	height: 75px; width: 100%; background-color:#9F4B2E; clear: both; line-height: 75px; text-align: center; color: aliceblue; font-weight: bold
+}
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px;
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:#A33F03;
+      text-decoration: none; }
